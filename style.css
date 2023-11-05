@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    
+    
+  }
+  h4{
+    background-color:antiquewhite ;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+  }
+  .container{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color:antiquewhite;
+    
+  }
+  
+  .container .calculator {
+    background-color:rgb(12, 12, 12) ;
+    width:340px;
+    border-radius: 10px;
+    height: 525px;
+    overflow: hidden;
+    position:fixed;
+    box-shadow: 7px 7px 5px rgba(134, 112, 52, 0.726);
+    
+  
+     padding-bottom: 15px; 
+  }
+  
+  .container .calculator .input-field{
+    height: 40px;
+    background-color: rgb(213, 204, 204);
+    color:black;
+    padding: 10px;
+    text-align: right;
+    font-weight:400;
+    width: 100%;
+    border-radius: 10px;
+  
+  }
+  .container .calculator .numbers{
+    display: grid;
+    grid-template-columns:23% 23% 23% 23%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  
+  }
+  
+  .container .calculator h1{
+    color: #fff;
+    text-align:right;
+    padding: 10px;
+  font-size: 35px;
+  margin-top: 75px;
+  
+  }
+  
+  .container .calculator .numbers button {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(39, 39, 39);
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+
+   
+  }
+  
+  .container .calculator .numbers button:last-child{
+    width: 160px;
+    background-color: rgb(230, 47, 11) ;
+  }
+  .container .calculator .numbers button:hover{
+    opacity: 80%;
+    transition: all 100ms;
+  }
+  
+  
+  
+  
